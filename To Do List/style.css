@@ -11,12 +11,12 @@ body {
     width: 100%;
     height: 100vh;
     overflow: auto;
-    background:  #3C87FF;
+    background:  #3cfcff;
 }
 
 ::selection {
     color: #fff;
-    background: #3C87FF;
+    background: #3cfcff;
 }
 .container{
     height: 100vh;
@@ -40,7 +40,7 @@ body {
 }
 
 .task-input i {
-    color: #1798fb;
+    color: #267ce7;
     display: inline;
     top: 50%;
     position:absolute;
@@ -61,7 +61,7 @@ body {
 .task-input input:focus,
 .task-input input.active {
     padding-left: 52px;
-    border: 2px solid #3C87FF;
+    border: 2px solid #267ce7;
 }
 
 .task-input input::placeholder {
@@ -99,8 +99,8 @@ li {
 }
 
 .filters span.active {
-    color: #3C87FF;
-    border-bottom: 2px solid #3C87FF;
+    color: #2d2e2f;
+    border-bottom: 2px solid #2d2e2f;
 }
 .controls .clear-btn {
     border: none;
@@ -114,7 +114,7 @@ li {
     letter-spacing: 0.3px;
     pointer-events: none;
     transition: transform 0.25s ease;
-    background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+    background: linear-gradient(135deg, #b60ca6 0%, #267ce7 100%);
 }
 
 .clear-btn.active {
@@ -184,7 +184,7 @@ li {
 
 .task label input {
     margin-top: 7px;
-    accent-color: #3C87FF;
+    accent-color: #3cfcff;
 }
 
 .task label p {
@@ -313,3 +313,5 @@ li {
         margin-top: 4px;
     }
 }
+
+
